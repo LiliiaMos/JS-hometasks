@@ -84,7 +84,7 @@ console.log(0 || '0' && 1);
 
 // Операція: (+null == false) < 1
 // Спочатку виконується унарний плюс до null, що перетворює його в 0: 0 == false дає true, оскільки false приводиться до 0.
-// Відповідно true < 1 дає true
+// Відповідно true < 1 це 1 < 1 дає false
 console.log((+null == false) < 1);
 
 // Операція: false && true || true
