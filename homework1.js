@@ -100,5 +100,5 @@ console.log(false && (false || true));
 // Операція: (+null == false) < 1 ** 5
 // Спочатку в дужках: +null == false дає true (null приводиться до 0, а false також до 0)
 // Підносимо до ступеня: 1 ** 5 = 1
-// true < 1  повертає true
+// true < 1  повертає false
 console.log((+null == false) < 1 ** 5);
